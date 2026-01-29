@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px 10px;
+    align-items: center;
+    
+}
+
+@mixin central{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+
+article{
+    @include central();
+    font-size: x-large;
+    
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+aside{
+    @include central();
+    flex-direction: column;
+}
+
+
+.titulo{
+    font-size: xx-large;
+    font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
