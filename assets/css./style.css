@@ -128,5 +128,11 @@ body {
     font-size: medium;
   }
 }
+@media (max-width: 425px) {
+  main video {
+    width: 95%;
+    height: 90%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
