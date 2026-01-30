@@ -23,8 +23,8 @@
 
     main{
         video{
-            width: 100%;
-            height: auto;
+            width: 80%;
+            height: 90%;
         }
     }
 
@@ -46,8 +46,11 @@
                 width: 80px;
     height: 30px;
     font-size: small;
+    &:hover{
+        font-size: medium;
             }
-        }
     }
    }
+}
+}
 }
